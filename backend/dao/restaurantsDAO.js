@@ -1,7 +1,6 @@
-import { ObjectId } from "mongodb" //not sure if this is needed!!!
+import { ObjectId } from "mongodb" 
 import mongodb from "mongodb" //get access to object id, convert string to mongodb object id
 const ObjectId = mongodb.ObjectId
-
 
 let restaurants //store reference to our database
 
@@ -18,7 +17,6 @@ export default class RestaurantsDAO {
             )
         }
     }
- //ended at 26:20
 
 static async getRestaurants({
     filters = null, //we put in what filters if we want to sort the data by what type of food, zipcode etc
@@ -106,7 +104,6 @@ static async getRestaurants({
         }
     }
 
-
     static async getCuisines() {
         let cuisines = [] //empty array
         try {
@@ -117,8 +114,4 @@ static async getRestaurants({
             return cuisines
         }
     }
-
-
-
-
 }
