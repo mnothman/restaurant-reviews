@@ -70,18 +70,3 @@ export default class ReviewsController { //reviews controller class with 3 metho
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-//ended at 46:54
-
-//https://www.youtube.com/watch?v=mrHNSanmqQ4&t=1589s&ab_channel=freeCodeCamp.org
