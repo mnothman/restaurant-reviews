@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import RestaurantDataService from "../services/restaurant";
 import { Link } from "react-router-dom";
 
+
+ // ERROR SHOWING ALL LIST OF RESTAURANTS, run using npm start. SOMETHING IS WRONG ON THIS FILE
+
 const RestaurantsList = props => { //use react hooks to create these state variables
   const [restaurants, setRestaurants] = useState([]); //set as empty array
   const [searchName, setSearchName] = useState([""]); 
@@ -176,8 +179,6 @@ const RestaurantsList = props => { //use react hooks to create these state varia
 
     </div>
   </div>
- //1:38:35 ERROR SHOWING ALL LIST OF RESTAURANTS, run using npm start. SOMETHING IS WRONG ON THIS FILE
-
   );
 };
 
